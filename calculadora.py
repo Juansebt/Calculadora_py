@@ -29,13 +29,14 @@ def main(page: ft.Page):
     
     page.window.width = 370
     page.window.height = 337
+    # page.bgcolor = "#1D2B53"
     
     result = ft.Text(value="0", color=ft.colors.WHITE, size=20)
 
     page.add(
         ft.Container(
             width=350,
-            bgcolor=ft.colors.BLACK,
+            bgcolor="#1D2B53",
             border_radius=ft.border_radius.all(20),
             padding=20,
             content=ft.Column(
